@@ -166,6 +166,8 @@ LEP_RESULT DEV_I2C_MasterClose()
     */ 
    LEP_UINT32 handle = 1;
    //int return_value = ISLDLL_close(handle);
+    close(leptonDevice0);
+    close(leptonDevice1);
 
     return(result);
 }
