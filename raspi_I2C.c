@@ -57,6 +57,7 @@
 #include <linux/i2c-dev.h>
 #include <errno.h>
 #include <unistd.h>
+#include <sys/ioctl.h>
 
 //#define _AVR_STK600_ATXMEGA128A1_BOARD
 
